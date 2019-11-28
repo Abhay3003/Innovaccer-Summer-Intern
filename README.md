@@ -95,16 +95,20 @@ If a visitor checked out then he can again check in.
 When **check-out** button is clicked we are redirected to a form where the input fields are visitor's phone number and address where visitor visited. After the form is submitted, a mail is sent to visitor's email address. 
 
 Email :
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/check%20out%20mail.PNG)
 
 Address and check out time is added to database corresponding to the entry. 
 
 Database: 
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/check%20out%20databse%20.PNG)
 
 **"User not found!!!"** message is displayed if no entry corresponds to entered mobile number of visitor. 
 
 Image: 
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/user%20not%20found%20check%20out.PNG)
 
 If the last entry of a particular visitor has checkout time and again the check out form is submitted with details of above mentioned visitor then **"Visitor already checked out!!"** message is displayed on the terminal. 
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/visitor%20already%20cout.PNG)
 
 ### Dependencies 
 

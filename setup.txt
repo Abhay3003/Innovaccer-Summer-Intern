@@ -1,0 +1,25 @@
+1) Install Mongo DB (https://www.mongodb.com/download-center/enterprise) and NodeJS (https://nodejs.org/en/) on your system.
+
+2) Clone the project.
+Command: 
+git clone https://github.com/Abhay3003/Innovaccer-Summer-Intern.git
+
+3) Change directory to the required folder. 
+Command:
+cd Innovaccer
+
+4) Install the dependencies using:
+Command:
+npm install
+
+5) Enter your email id and password for sending mail in "nodemailer.createTrasnport" function.
+
+6) Enter "accountSid" and "authToken" for Twilio. In "from:" field of "client.messages.create" function enter the number provided by Twilio. 
+
+7) Use two terminals. In one terminal run command:
+mongod
+
+8) In other terminal run the main file i.e. "app.js" using:
+node app.js
+
+9) Open url: "localhost:3000" on your browser.

@@ -141,7 +141,7 @@ If the last entry of a particular visitor has checkout time and again the check 
 
 ```
 
-### Setup on local system
+### Setting up on local system
 
 
 1) Install Mongo DB (https://www.mongodb.com/download-center/enterprise) and NodeJS (https://nodejs.org/en/) on your system.

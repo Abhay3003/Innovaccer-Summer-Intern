@@ -1,0 +1,36 @@
+<% include partials/header %>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div style="padding-left:200px; padding-right: 300px; padding-top: 20px;">
+    <h1 style="padding-bottom: 10px;">SUBMIT DETAILS</h1>
+<form action="/" method="POST" required:>
+    <div class="form-group">
+      <label>Visitor Email address</label>
+      <input type="email" class="form-control" id="getemail" name="visemail" placeholder="Enter email" required>
+    </div>
+    <div class="form-group">
+        <label>Visitor Name</label>
+        <input type="text" class="form-control" id="getname"  name="visname" placeholder="Full name" required>
+    </div>
+    <div class="form-group">
+        <label>Visitor Phone Number</label>
+        <input type="number" class="form-control" id="getphone" name="visphone" placeholder="phone number" required>
+    </div>
+    
+    
+    <div class="form-group">
+        <label>Host Email address</label>
+        <input type="email" class="form-control" id="getemail" name="hosemail" aria-describedby="emailHelp" placeholder="Enter email" required>
+    </div>
+    <div class="form-group">
+        <label>Host Name</label>
+        <input type="text" class="form-control" id="getname"  name="hosname" placeholder="Full name" required>
+    </div>
+    <div class="form-group">
+        <label>Host Phone Number</label>
+        <input type="number" class="form-control" id="getphone" name="hosphone" placeholder="phone number" required>
+    </div>
+    <button type="submit" class="btn btn-primary" >Submit</button> 
+  </form>
+</div>
+
+<% include partials/footer %>

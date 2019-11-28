@@ -53,8 +53,8 @@ FIELDS:
 * host email
 * host phone number
 * check-in time
-* check-out time
 * address visited
+* check-out time
 ```
 
 

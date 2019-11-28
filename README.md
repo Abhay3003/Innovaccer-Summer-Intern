@@ -62,6 +62,7 @@ FIELDS:
 If a visitor wants to check in then the company employee clicks the check in button and a form opens up 
 
 Check in form image:
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/Form%20filled.PNG)
 
 #### **Here phone number of visitor is used as primary key**
 

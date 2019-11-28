@@ -38,6 +38,7 @@ Twilio seeks to rid businesses of the messy telecom hardware by providing a tele
 Home page or Home Screen of the application has two buttons, one for **CHECK-IN** and other for **CHECK-OUT** 
 
 Home page image:
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/homescreen.PNG?raw=true)
 
 #### **DATABASE NAME: entries. Collections: visitors**
 

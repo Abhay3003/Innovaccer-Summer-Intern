@@ -71,10 +71,13 @@ Condition is checked whether phone numbers are of length 10 digits. If not, we a
 When all the fields are filled and form is submitted we are redirected to home screen and data is stored in our database. Email is sent to host email and message is sent to host phone number.
 
 Email : 
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/emailcheckin.PNG)
 
 Message : 
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/message%20check%20in.PNG)
 
 Database : 
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/dtabaseaftercheckin.PNG)
 
 If the visitor did not check out and his/her information is entered in check in form then a message is displayed on terminal window **"Cannot check in. User is already checked in"**.
 

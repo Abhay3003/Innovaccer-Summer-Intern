@@ -79,14 +79,16 @@ Message :
 Database : 
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/dtabaseaftercheckin.PNG)
 
-If the visitor did not check out and his/her information is entered in check in form then a message is displayed on terminal window **"Cannot check in. User is already checked in"**.
+If the visitor did not check out and his/her information is entered in check in form then a message is displayed on terminal window **"Cannot check in. User with same number is already checked in"**.
 
-Form with same visitor details: 
+Form with same visitor details:
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/cannotcheckinform.PNG)
 
 Message displayed corresponding to above image: 
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/cannotcheckinmssg.PNG)
 
 If a visitor checked out then he can again check in. 
-Image:
+![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/Checkin%20then%20check%20in%20again%20working.PNG)
 
 ### Check-Out working
 

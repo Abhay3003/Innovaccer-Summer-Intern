@@ -153,7 +153,7 @@ git clone https://github.com/Abhay3003/Innovaccer-Summer-Intern.git
 3) Change directory to the required folder. 
 
 ```bash
-cd Innovaccer
+cd Innovaccer-Summer-Intern
 ```
 4) Install the dependencies using:
 ```bash

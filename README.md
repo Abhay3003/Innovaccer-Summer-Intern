@@ -37,7 +37,8 @@ Twilio seeks to rid businesses of the messy telecom hardware by providing a tele
 
 Home page or Home Screen of the application has two buttons, one for **CHECK-IN** and other for **CHECK-OUT** 
 
-Home page image:
+**Home page image:**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/homescreen.PNG?raw=true)
 
 #### **DATABASE NAME: entries. Collections: visitors**
@@ -61,7 +62,8 @@ FIELDS:
 
 If a visitor wants to check in then the company employee clicks the check in button and a form opens up 
 
-Check in form image:
+**Check in form image:**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/Form%20filled.PNG)
 
 #### **Here phone number of visitor is used as primary key**
@@ -70,39 +72,48 @@ Condition is checked whether phone numbers are of length 10 digits. If not, we a
 
 When all the fields are filled and form is submitted we are redirected to home screen and data is stored in our database. Email is sent to host email and message is sent to host phone number.
 
-Email : 
+**Email :**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/emailcheckin.PNG)
 
-Message : 
+**Message :**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/message%20check%20in.PNG)
 
-Database : 
+**Database :**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/dtabaseaftercheckin.PNG)
 
 If the visitor did not check out and his/her information is entered in check in form then a message is displayed on terminal window **"Cannot check in. User with same number is already checked in"**.
 
-Form with same visitor details:
+**Form with same visitor details:**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/cannotcheckinform.PNG)
 
-Message displayed corresponding to above image: 
+**Message displayed corresponding to above image:**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/cannotcheckinmssg.PNG)
 
-If a visitor checked out then he can again check in. 
+**If a visitor checked out then he can again check in.**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/Checkin%20then%20check%20in%20again%20working.PNG)
 
 ### Check-Out working
 
 When **check-out** button is clicked we are redirected to a form where the input fields are visitor's phone number and address where visitor visited. After the form is submitted, a mail is sent to visitor's email address. 
 
-Form for checkout: 
+**Form for checkout:**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/Checkout%20form.PNG)
 
-Email :
+**Email :**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/check%20out%20mail.PNG)
 
 Address and check out time is added to database corresponding to the entry. 
 
-Database: 
+**Database:**
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/check%20out%20databse%20.PNG)
 
 **"User not found!!!"** message is displayed if no entry corresponds to entered mobile number of visitor. 
@@ -111,9 +122,10 @@ Database:
 
 If the last entry of a particular visitor has checkout time and again the check out form is submitted with details of above mentioned visitor then **"Visitor already checked out!!"** message is displayed on the terminal. 
 
-Check out form with same details and corresponding mesaage: 
+**Check out form with same details and corresponding mesaage:** 
 
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/same%20details%20filled%20in%20cout%20form.PNG)
+
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/visitor%20already%20cout.PNG)
 
 ### Dependencies 

@@ -128,7 +128,7 @@ If the last entry of a particular visitor has checkout time and again the check 
 
 ![alt text](https://github.com/Abhay3003/Innovaccer-Summer-Intern/blob/master/Images%20innovaccer/visitor%20already%20cout.PNG)
 
-### Dependencies 
+## Dependencies 
 
 
 ```
@@ -141,7 +141,7 @@ If the last entry of a particular visitor has checkout time and again the check 
 
 ```
 
-### Setting up on local system
+## Setting up on local system
 
 
 1) Install Mongo DB (https://www.mongodb.com/download-center/enterprise) and NodeJS (https://nodejs.org/en/) on your system.
@@ -170,4 +170,9 @@ mongod
 node app.js
 ```
 9) Open ***localhost:3000*** on your browser.
+
+## Author
+
+Name: Abhay Gupta
+Email: 17ucs003@lnmiit.ac.in
 

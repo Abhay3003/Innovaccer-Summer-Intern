@@ -1,5 +1,3 @@
-# Innovaccer-Summer-Intern
-Summer Internship Hiring Assignment-Innovaccer.
 
 ## Prerequisites
 
